@@ -1,0 +1,9 @@
+# Dependencias para YOLOv8n + OpenCV + PyTorch (CPU)
+# Nota: Para PyTorch CPU-only en Windows, puede ser necesario primero:
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+# Luego instalar el resto:
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+ultralytics>=8.0.0
+opencv-python>=4.5.0
